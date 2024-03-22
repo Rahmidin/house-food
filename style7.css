@@ -1,0 +1,36 @@
+.main, .header, .footer{
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    
+}
+.gallery-of-dishes{
+    display: flex;
+    padding: 30px 10px;
+    border: 2px solid blue;
+    gap: 8px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+
+.card-dishes{
+    border: 3px solid teal;
+
+    /* увеличения */
+    /* flex-grow: 1; */
+
+    /* уменьшения */
+    /* flex-shrink: 0; */
+
+    /* размер */
+    /* flex-basis: 200px; */
+
+    /* flex: 1 0; */
+
+    /* flex-direction: row-reverse; */
+    
+}
+.footer{
+    margin-top: 400px;
+}
